@@ -1,8 +1,55 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+ background-color: rgb(28, 28, 28);
+ background: url("/Assets/images/bg1.png") no-repeat, url("/Assets/images/bg2.png") no-repeat, url("/Assets/images/bg2.png") no-repeat ;
+ background-position:
+    top 50px left 40px,
+    bottom 0px right 40px,
+    top 0px right 0px;
+ background-color: rgb(28, 28, 28);
+ height: 100vh;
+ color: aliceblue;
+ margin: auto;
+}
+nav .navbar-nav li a{
+  color: white !important;
+  }
+.textAlign{ 
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: 20%;
+  left: 0%;
+  text-align: center;
+}
+  .text-wave {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+.text-wave span {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: monospace;
+    animation: wave 3s ease-in-out infinite;
+    animation-delay: calc(.1s*var(--i));
+  }
+
+@keyframes wave {
+    0% {
+      transform: translateY(0px);
+    }
+
+    20% {
+      transform: translateY(-24px);
+    }
+
+    40%,
+    100% {
+      transform: translateY(0);
+    }
 }
 
-a {
-  color: #00B7FF;
-}
