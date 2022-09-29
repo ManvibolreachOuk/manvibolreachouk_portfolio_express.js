@@ -1,13 +1,44 @@
-<%- include partials/header.ejs %>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css" />
+    <link rel=' stylesheet ' href='/Content/about.css' />
+
+</head>
+
+<body> 
 
 <%- include partials/main_nav.ejs %>
-<h1 class="display-4">Welcome to the <%= title %> page</h1>
-      
-<%- include partials/bottom_nav.ejs %>  
-<p>I want to be ready to develop technology that has not existed. I want to learn more about coding and useful software that is able to prepare my journey to be in this 21st-century industry. 
-      
-</p>
-<p>Since I am into creating new products in software for solving issues in daily life. Therefore, this program is excellent for me.</p>
-<p>My goal is to do internship jobs in big tech companies like Google, Amazon, LinkedIn, and more. 
-</p>
-<%- include partials/footer.ejs %>
+
+   <main>
+    <div class="profile">
+        <img src="/Assets/images/profile.jpg" class="rounded float-end" alt="..." width="350px"; height="500px">
+    </div>
+    <div class="text">
+        <div class="col-md-12 text-center">
+            <h3 class="animate-charcter"> Welcome to the <%= title %> page</h3>
+          </div>    
+        <%- include partials/bottom_nav.ejs %>  
+        <p>I want to be ready to develop technology that has not existed. I want to learn more about coding and useful 
+            software that is able to prepare my journey to be in this 21st-century industry. </p>
+        <p>Since I am into creating new products in software for solving issues in daily life. Therefore, this program is excellent for me.</p>
+        <p>My goal is to do internship jobs in big tech companies like Google, Amazon, LinkedIn, and more. </p>
+        </main>
+    </div>
+    
+    
+
+
+<script src="/jquery/dist/jquery.min.js"></script>
+<script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/Scripts/app.js"></script>
+</body>
+</html>

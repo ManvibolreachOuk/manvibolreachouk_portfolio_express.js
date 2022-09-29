@@ -1,0 +1,67 @@
+nav .navbar-nav li a{
+    color: white !important;
+    }
+    body{
+        background-color:rgb(28, 28, 28);
+        color:#ffffff;
+    }
+    .box{
+        margin: auto;
+  width: 80%;
+  height: 70%;
+  border: 3px solid green;
+  padding: 10px;
+  background: #ffffff;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+        }
+        .profile{          
+            margin-top: 0%;
+            float:right;             
+                  }      
+        main{
+            margin-left: 10%;
+            margin-right: 10%;
+        align-items: center;
+        }
+    .text{
+        align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  left: 2%;
+  right: 100px;
+  text-align: left;
+  
+    }    
+    
+      .animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #00ffff 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 40px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+    
