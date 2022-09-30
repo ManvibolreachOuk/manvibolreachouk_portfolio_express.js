@@ -1,11 +1,11 @@
 {
   "name": "portfolio-assignment1-comp229",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
   },
-  "engines":{
+  "engines": {
     "node": "^18.9.0",
     "npm": "^8.19.1"
   },
@@ -20,5 +20,18 @@
     "jquery": "^3.6.1",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "portfolio manvibolreachouk",
+  "main": "index,js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manvibolreachouk/Portfolio_Assignment1.git"
+  },
+  "author": "Manvibolreach Ouk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manvibolreachouk/Portfolio_Assignment1/issues"
+  },
+  "homepage": "https://github.com/manvibolreachouk/Portfolio_Assignment1#readme"
 }
