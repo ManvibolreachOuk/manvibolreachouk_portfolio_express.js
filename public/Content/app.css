@@ -1,14 +1,21 @@
+/*
+File: app.css
+Student Name: Manvibolreach Ouk
+Student ID: 301224112
+Date: October 01, 2022
+*/ 
+
 body {
- background-color: rgb(28, 28, 28);
- background: url("/Assets/images/bg1.png") no-repeat, url("/Assets/images/bg2.png") no-repeat;
- background-position:
+  background-color: rgb(28, 28, 28);
+  background: url("/Assets/images/bg1.png") no-repeat, url("/Assets/images/bg2.png") no-repeat;
+  background-position:
     top 0px left 0px,
     bottom 0px right 0px;
   position: relative;
- height: 100vh;
- color: aliceblue;
- margin: auto;
- font-family:monospace;
+  height: 100vh;
+  color: aliceblue;
+  margin: auto;
+  font-family:monospace;
 }
 
 @keyframes slide {
@@ -31,13 +38,13 @@ nav .navbar-nav li a{
   text-align: center;
 
 }
-  .text-wave {
+.text-wave {
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-  }
+}
 
 .text-wave span {
     position: relative;
@@ -82,4 +89,25 @@ nav .navbar-nav li a{
 
 .bg3 {
   animation-duration:10s;
+}
+main{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+footer {
+  position: relative;
+  height:281px;
+  width: 100%;
+  margin-bottom: 0%;
+
+}
+
+p.copyright {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  line-height: 40px;
+  font-size: 0.7em;
+  text-align: center;
+  bottom:0;
 }

@@ -1,3 +1,10 @@
+/*
+File: index.js
+Student Name: Manvibolreach Ouk
+Student ID: 301224112
+Date: October 01, 2022
+*/
+
 (function() {
 
     function Start() {
@@ -62,3 +69,5 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+
+

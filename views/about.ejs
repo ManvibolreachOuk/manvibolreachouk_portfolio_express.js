@@ -1,3 +1,10 @@
+<!--
+File: about.ejs
+Student Name: Manvibolreach Ouk
+Student ID: 301224112
+Date: October 01, 2022
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,9 +22,11 @@
 </head>
 
 <body> 
+    <%- include partials/main_nav.ejs %>
 
-<%- include partials/main_nav.ejs %>
 
+
+    <!--main part-->
    <main>
     <div class="profile">
         <img src="/Assets/images/profile.jpg" class="rounded float-end" alt="..." width="350px"; height="500px">
@@ -25,20 +34,22 @@
     <div class="text">
         <div class="col-md-12 text-center">
             <h3 class="animate-charcter"> Welcome to the <%= title %> page</h3>
-          </div>    
-        <%- include partials/bottom_nav.ejs %>  
-        <p>I want to be ready to develop technology that has not existed. I want to learn more about coding and useful 
-            software that is able to prepare my journey to be in this 21st-century industry. </p>
-        <p>Since I am into creating new products in software for solving issues in daily life. Therefore, this program is excellent for me.</p>
-        <p>My goal is to do internship jobs in big tech companies like Google, Amazon, LinkedIn, and more. </p>
-        </main>
+        </div>    
+          
+        <p> My name is Manvibolreach Ouk.</p>
+        <p> I am a Software Engineering Technician student at Centennial College. I am currently in second year.</p>
+        <p> I am working as a Full-Stack Developer in North York, Ontaio. I have learned a lot from this job.</p>
+        <li>Collaboartion</li>
+        <li>New Technology</li>
+        <li>I like coding but I am into back-end more</li>
+        <h1></h1>
+        <h1></h1>
+        <a class="btn btn-primary" href="/Assets/images/Manvibolreach Resume.pdf">Resume</a>  
+        
     </div>
+    </main>
     
     
 
-
-<script src="/jquery/dist/jquery.min.js"></script>
-<script src="/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="/Scripts/app.js"></script>
-</body>
-</html>
+<%- include partials/bottom_nav.ejs %>
+<%- include partials/footer.ejs %>
