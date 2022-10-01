@@ -69,5 +69,31 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+const wrapper = document.querySelector('.wrapper'),
+    form = wrapper.querySelectorAll('.form'),
+    submitInput = form[0].querySelector('input[type="submit"]');
+
+    function getDataForm(e){
+        e.preventDefault();    
+        let formData = new FormData(form[0]);
+
+        alert(formData.get('fname')+'\n ' +
+        formData.get('lname')+'\n ' +
+        formData.get('phone')+'\n ' +
+        formData.get('email')+'\n ' +
+        formData.get('message')+ ("\n ---The Form was submitted.--- \n Thank You!"));
+        
+     
+    
+    }
+
+
+    document.addEventListener('DOMContentLoaded', function(){
+        submitInput.addEventListener('click', getDataForm, false);
+
+    }, false);
+
+    
+
 
 
