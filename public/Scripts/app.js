@@ -77,21 +77,16 @@ const wrapper = document.querySelector('.wrapper'),
         e.preventDefault();    
         let formData = new FormData(form[0]);
 
-        alert(formData.get('fname')+'\n ' +
-        formData.get('lname')+'\n ' +
-        formData.get('phone')+'\n ' +
-        formData.get('email')+'\n ' +
-        formData.get('message')+ ("\n ---The Form was submitted.--- \n Thank You!"));
-        
-     
-    
+        alert(("Hi, ")+formData.get('fname')+' '+formData.get('lname')+'\n'+("Submission Successful!"));
+        window.location.replace("/home");
+   
     }
-
 
     document.addEventListener('DOMContentLoaded', function(){
         submitInput.addEventListener('click', getDataForm, false);
 
-    }, false);
+    }, false); 
+
 
     
 

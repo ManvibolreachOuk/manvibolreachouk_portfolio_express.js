@@ -136,12 +136,12 @@ main{
 }
 footer {
     position: relative;
-    height: 290px;
+    height: 280px;
     width: 100%;
   
   }
   
-  p.copyright {
+p.copyright {
     position: absolute;
     width: 100%;
     color: #fff;
@@ -149,4 +149,4 @@ footer {
     font-size: 0.7em;
     text-align: center;
     bottom:0;
-  }
+}
