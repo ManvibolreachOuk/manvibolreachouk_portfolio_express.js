@@ -14,6 +14,7 @@ Date: October 01, 2022
     window.addEventListener("load", Start);
 
 })();
+//JS that load diffrent letter at diffrent time
 let TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -69,6 +70,7 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+//Load the alert after submitted the form
 const wrapper = document.querySelector('.wrapper'),
     form = wrapper.querySelectorAll('.form'),
     submitInput = form[0].querySelector('input[type="submit"]');
@@ -78,10 +80,10 @@ const wrapper = document.querySelector('.wrapper'),
         let formData = new FormData(form[0]);
 
         alert(("Hi, ")+formData.get('fname')+' '+formData.get('lname')+'\n'+("Submission Successful!"));
+        //rediret the user to home page
         window.location.replace("/home");
-   
     }
-
+    //click action
     document.addEventListener('DOMContentLoaded', function(){
         submitInput.addEventListener('click', getDataForm, false);
 

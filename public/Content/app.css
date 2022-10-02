@@ -45,7 +45,9 @@ nav .navbar-nav li a{
     justify-content: center;
     position: relative;
 }
-
+/*
+css for wave animation on the letters with eaxct time period
+*/
 .text-wave span {
     position: relative;
     color: rgb(255, 255, 255);
@@ -69,7 +71,9 @@ nav .navbar-nav li a{
       transform: translateY(0);
     }
 }
-
+/*
+color slide from side to side that is over background color and pictures
+*/
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
   background-image: linear-gradient(-60deg, rgb(28, 28, 28) 50%, rgb(101, 101, 102) 50%);
@@ -111,3 +115,6 @@ p.copyright {
   text-align: center;
   bottom:0;
 }
+/*
+Some of the codes were taken from my old assignments from previous semester
+*/
