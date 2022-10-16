@@ -24,3 +24,7 @@ The is a [Express Generator - Partials video](https://mediasite.centennialcolleg
 
 The is a [Express and Heroku video](https://mediasite.centennialcollege.ca/Mediasite/Play/8f1cd4e9cb02433c8b6aedb8f75a21f61d)
 _______________________________________________________________________________________________________________________________________
+
+# This repo has a video on its readme: P
+
+https://youtu.be/xz1i61usdW8
