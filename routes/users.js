@@ -11,7 +11,7 @@ let router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-    res.send('Place Holder');
+    res.send('Welcome to my World!');
 });
 
 module.exports = router;

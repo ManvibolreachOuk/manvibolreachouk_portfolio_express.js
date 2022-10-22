@@ -6,13 +6,10 @@ Date: October 01, 2022
 */
 
 (function() {
-
     function Start() {
         console.log("App Started...");
     }
-
     window.addEventListener("load", Start);
-
 })();
 //JS that load diffrent letter at diffrent time
 let TxtType = function(el, toRotate, period) {
